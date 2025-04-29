@@ -1,0 +1,81 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: wrap;
+  color: var(--color-primary);
+  font-size: 16px;
+
+  // .footer__logo
+
+  &__logo {
+    margin: 0 auto 0 0;
+    width: var(--logo-width);
+    height: var(--logo-height);
+    background: center / contain no-repeat;
+    // filter to primary
+    filter: brightness(0) saturate(100%) invert(20%) sepia(32%) saturate(6394%) hue-rotate(246deg) brightness(94%) contrast(80%);
+    transition: opacity .5s ease-out;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  // .footer__links
+
+  &__links {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+  }
+
+  // .footer__link
+
+  &__link {
+    width: 30px;
+    height: 30px;
+    background: center / contain no-repeat;
+    transition: opacity .5s ease-out;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  // .footer__link--type-facebook
+
+  &__link--type-facebook {
+  }
+
+  // .footer__link--type-vkontakte
+
+  &__link--type-vkontakte {
+  }
+
+  // .footer__link--type-whatsapp
+
+  &__link--type-whatsapp {
+  }
+
+  // .footer__link--type-telegram
+
+  &__link--type-telegram {
+  }
+
+  // .footer__support
+
+  &__support {
+    margin: 25px 0 0 auto;
+    padding: 0 0 0 55%;
+  }
+
+  // .footer__support-link
+
+  &__support-link {
+    text-decoration: underline transparent;
+    text-underline-offset: 3px;
+    transition: text-decoration-color .5s ease-out;
+    &:hover {
+      text-decoration-color: currentColor;
+    }
+  }
+}

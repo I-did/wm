@@ -1,0 +1,26 @@
+.section {
+}
+
+.container {
+}
+
+body {
+}
+
+.section {
+  &-heading {
+  }
+  &-heading--level-1 {
+    font-size: calc(28 / 320 * 100 * 1vw);
+  }
+  &-heading--level-2 {
+    font-size: calc(22 / 320 * 100 * 1vw);
+  }
+  &__heading {
+    margin-bottom: calc(20 / 320 * 100 * 1vw);
+  }
+}
+
+.button {
+  font-size: calc(12 / 320 * 100 * 1vw);
+}

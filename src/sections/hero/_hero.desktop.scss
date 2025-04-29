@@ -1,0 +1,128 @@
+.hero {
+  padding-top: calc(var(--header-height) + 48px);
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--color-white);
+  background: var(--color-gradient);
+  overflow: hidden;
+  position: relative;
+  &::before {
+    content: '';
+    width: 645px;
+    height: 720px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: center / contain no-repeat url('./img/img-hero-decor.svg');
+    transform: translate(-15%, -35%);
+  }
+
+  // .hero__text
+
+  &__text {
+    margin: 55px auto 0 0;
+    width: 525px;
+  }
+
+  // .hero__heading
+
+  &__heading {
+    margin: 0 0 35px;
+  }
+
+  // .hero__descr
+
+  &__descr {
+    margin: 0 0 65px;
+    font: 20px/1.4 var(--font-text);
+  }
+
+  // .hero__buttons
+
+  &__buttons {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  // .hero__button
+
+  &__button {
+    width: 185px;
+    height: 50px;
+  }
+
+  // .hero__button--type-call
+
+  &__button--type-call {
+    margin: 0 20px 0 0;
+  }
+
+  // .hero__button--type-conference
+
+  &__button--type-conference {
+    color: var(--color-white);
+  }
+
+  // .hero__buttons-note
+
+  &__buttons-note {
+    margin: 20px 0 0;
+    width: 90%;
+    font: 14px/1.2 var(--font-text);
+  }
+
+  // .hero__img
+
+  &__img {
+    margin: 0 -108px 0 0;
+    width: 615px;
+    height: 540px;
+    background: center / contain no-repeat;
+  }
+
+  // .hero__features
+
+  &__features {
+    --item-mr: 20px;
+    --item-mb: 30px;
+    margin: 110px calc(var(--item-mr) * -1) calc(var(--item-mb) * -1) 0;
+    padding: 55px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: var(--section-px-negative);
+      right: var(--section-px-negative);
+      height: 100%;
+      background-color: rgba(255, 255, 255, .1);
+      box-shadow: inset 0 0 100px rgba(175, 161, 249, .3);
+      pointer-events: none;
+    }
+  }
+
+  // .hero__features-item
+
+  &__features-item {
+    margin: 0 var(--item-mr) var(--item-mb) 0;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid;
+    transition: color .5s ease-out;
+    &--is-active {
+      color: var(--color-secondary);
+    }
+  }
+}

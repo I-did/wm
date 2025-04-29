@@ -1,0 +1,26 @@
+.section {
+}
+
+.container {
+}
+
+body {
+  font-size: 16px;
+}
+
+.section {
+  &-heading {
+  }
+  &-heading--level-1 {
+    font-size: 40px;
+  }
+  &-heading--level-2 {
+    font-size: 30px;
+  }
+  &__heading {
+    margin-bottom: 25px;
+  }
+}
+
+.button {
+}

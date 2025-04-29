@@ -1,0 +1,28 @@
+.broadcasts {
+
+  // .broadcasts__heading
+
+  &__heading {
+  }
+
+  // .broadcasts__descr
+
+  &__descr {
+    
+  }
+
+  // .broadcasts__button
+
+  &__button {
+    width: 148px;
+    height: 40px;
+  }
+
+  // .broadcasts__img
+
+  &__img {
+    margin: 0 0 0 40px;
+    width: 705px * 0.7;
+    height: 545px * 0.7;
+  }
+}

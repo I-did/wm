@@ -1,0 +1,89 @@
+.features {
+  padding-top: calc(50 / 320 * 100 * 1vw);
+  padding-bottom: calc(50 / 320 * 100 * 1vw);
+  // .features__item
+
+  &__item {
+    margin-bottom: calc(100 / 320 * 100 * 1vw);
+    &:nth-child(3n+1) {
+      &.lazyloaded {
+        &::before {
+          width: calc(356 / 320 * 100 * 1vw);
+          height: calc(361 / 320 * 100 * 1vw);
+        }
+      }
+      .features__item-img {
+        margin: 0 0 0 calc(-9 / 320 * 100 * 1vw);
+        width: calc(280 / 320 * 100 * 1vw);
+        height: calc(220 / 320 * 100 * 1vw);    
+      }
+    }
+    &:nth-child(3n+2) {
+      &.lazyloaded {
+        &::before {
+          width: calc(327 / 320 * 100 * 1vw);
+          height: calc(321 / 320 * 100 * 1vw);
+        }
+      }
+      .features__item-img {
+        margin: 0 0 0 calc(-20 / 320 * 100 * 1vw);
+        width: calc(280 / 320 * 100 * 1vw);
+        height: calc(186 / 320 * 100 * 1vw);
+      }
+    }
+    &:nth-child(3n+3) {
+      &.lazyloaded {
+        &::before {
+          bottom: 15%;
+          left: -12%;
+          width: calc(310 / 320 * 100 * 1vw);
+          height: calc(348 / 320 * 100 * 1vw);
+        }
+      }
+      .features__item-img {
+        width: calc(280 / 320 * 100 * 1vw);
+        height: calc(270 / 320 * 100 * 1vw);    
+      }
+    }
+  }
+
+  // .features__item-img
+
+  &__item-img {
+  }
+
+  // .features__item-text
+
+  &__item-text {
+  }
+
+  // .features__item-heading
+
+  &__item-heading {
+  }
+
+  // .features__item-descr
+
+  &__item-descr {
+    margin: 0 0 calc(30 / 320 * 100 * 1vw);
+  }
+
+  // .features__item-buttons
+
+  &__item-buttons {
+  }
+
+  // .features__item-button
+
+  &__item-button {
+    margin: 0 0 calc(15 / 320 * 100 * 1vw);
+    width: 100%;
+    height: calc(40 / 320 * 100 * 1vw);
+    &:only-child {
+      width: 100%;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

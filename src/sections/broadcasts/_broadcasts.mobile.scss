@@ -1,0 +1,30 @@
+.broadcasts {
+  padding-top: calc(50 / 320 * 100 * 1vw);
+  padding-bottom: calc(50 / 320 * 100 * 1vw);
+  overflow: hidden;
+
+  // .broadcasts__heading
+
+  &__heading {
+  }
+
+  // .broadcasts__descr
+
+  &__descr {
+  }
+
+  // .broadcasts__button
+
+  &__button {
+    width: 100%;
+    height: calc(40 / 320 * 100 * 1vw);
+  }
+
+  // .broadcasts__img
+
+  &__img {
+    margin: 0 0 calc(30 / 320 * 100 * 1vw) calc(-20 / 320 * 100 * 1vw);
+    width: calc(280 / 320 * 100 * 1vw);
+    height: calc(220 / 320 * 100 * 1vw);
+  }
+}

@@ -1,0 +1,11 @@
+@use './scss/reset';
+@use './scss/fonts';
+@use './scss/css-variables';
+
+@use './scss/base/base.desktop';
+
+@use './sections/header/header.desktop';
+@use './sections/hero/hero.desktop';
+@use './sections/features/features.desktop';
+@use './sections/broadcasts/broadcasts.desktop';
+@use './sections/footer/footer.desktop';

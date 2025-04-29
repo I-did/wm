@@ -1,0 +1,57 @@
+.header {
+
+  // .header__logo
+
+  &__logo {
+  }
+
+  // .header__burger
+
+  &__burger {
+    width: calc(20 / 320 * 100 * 1vw);
+    height: calc(10 / 320 * 100 * 1vw);
+    &.active {
+      height: calc(16 / 320 * 100 * 1vw);
+    }
+  }
+
+  // .header__nav
+
+  &__nav {
+  }
+
+  // .header__nav-lnk
+
+  &__nav-lnk {
+  }
+}
+
+.mobile-menu {
+
+  &.active {
+  }
+
+  &__content {
+    padding-top: calc(50 / 320 * 100 * 1vw);  
+  }
+
+  &__nav {
+    font-size: calc(18 / 320 * 100 * 1vw);
+  }
+
+  &__nav-link {
+    margin: 0 0 calc(20 / 320 * 100 * 1vw);
+    &:last-child {
+    }
+  }
+
+  &__links {
+    margin: calc(50 / 320 * 100 * 1vw) 0 0;
+    column-gap: calc(20 / 320 * 100 * 1vw);
+  }
+
+  &__link {
+    width: calc(30 / 320 * 100 * 1vw);
+    height: calc(30 / 320 * 100 * 1vw);
+  }
+}

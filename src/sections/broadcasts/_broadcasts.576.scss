@@ -1,0 +1,27 @@
+.broadcasts {
+  display: flex;
+  flex-flow: column;
+
+  // .broadcasts__heading
+
+  &__heading {
+  }
+
+  // .broadcasts__descr
+
+  &__descr {
+  }
+
+  // .broadcasts__button
+
+  &__button {
+    order: 10;
+  }
+
+  // .broadcasts__img
+
+  &__img {
+    margin: 0 0 30px -22px;
+    order: 9;
+  }
+}

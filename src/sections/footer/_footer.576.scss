@@ -1,0 +1,57 @@
+.footer {
+  padding-top: 50px;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+
+  // .footer__logo
+
+  &__logo {
+    margin: 0 0 25px;
+  }
+
+  // .footer__links
+
+  &__links {
+    column-gap: 20px;
+  }
+
+  // .footer__link
+
+  &__link {
+    width: 30px;
+    height: 30px;
+  }
+
+  // .footer__link--type-facebook
+
+  &__link--type-facebook {
+  }
+
+  // .footer__link--type-vkontakte
+
+  &__link--type-vkontakte {
+  }
+
+  // .footer__link--type-whatsapp
+
+  &__link--type-whatsapp {
+  }
+
+  // .footer__link--type-telegram
+
+  &__link--type-telegram {
+  }
+
+  // .footer__support
+
+  &__support {
+    margin: 25px 0 0;
+    padding: 0;
+  }
+
+  // .footer__support-link
+
+  &__support-link {
+  }
+}
